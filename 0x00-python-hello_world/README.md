@@ -38,7 +38,7 @@ This folder contains a basic introduction of the python programming language.
 
 Python documentation
 
-Youtube series
+@Youtube series
 
 Pycodestyle guide
 
