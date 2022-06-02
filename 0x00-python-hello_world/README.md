@@ -34,7 +34,7 @@ This folder contains a basic introduction of the python programming language.
  
  lists.h : contains the header file used in 10-check_cycle.c
  
-# Resources
+    Resources
 
 Python documentation
 
