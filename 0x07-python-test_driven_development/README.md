@@ -2,7 +2,7 @@
 In this project, I started practicing test-driven development using docstring and unittest in Python.
 
 # Tests heavy_check_mark
-tests: Folder of test files. Includes both Holberton-provided ones as well as the following eight independently-developed:
+tests: Folder of test files. Includes eight independently-developed:
 
 0-add_integer.txt
 
