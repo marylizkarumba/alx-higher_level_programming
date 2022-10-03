@@ -1,9 +1,17 @@
 #!/usr/bin/node
-'use strict';
-let nextMax = 0;
-const args = process.argv.slice(2);
-if (args.length > 1) {
-  args.sort();
-  nextMax = args[args.length - 2];
+
+let numbers = process.argv.slice(2);
+numbers = numbers.map(number => parseInt(number, 10));
+
+let biggest = 0;
+let secondBiggest = 0;
+
+for (const num of numbers) {
+  if (num >= biggest) {
+    secondBiggest = biggest;
+    biggest = num;
+  }
+  if (num < biggest && num >= secondBiggest) secondBiggest = num;
 }
-console.log(nextMax);
+
+console.log(secondBiggest);
