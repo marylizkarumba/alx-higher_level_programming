@@ -1,4 +1,3 @@
 #!/bin/bash
 # bash
-curl -sI "$1" | grep "Content-Length:" | cut -d " " -f 2sh
-
+curl -sI "$1" | grep "Content-Length:" | cut -d " " -f 2
