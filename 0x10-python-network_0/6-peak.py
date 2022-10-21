@@ -1,5 +1,5 @@
-
-ntains the function find_peak"""
+#!/usr/bin/python3
+"""contains the function find_peak"""
 
 
 def find_peak(list_of_integers):
@@ -14,33 +14,3 @@ def find_peak(list_of_integers):
     if m != l - 1 and li[m + 1] > li[m]:
         return find_peak(li[m + 1:])
     return find_peak(li[:m]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
